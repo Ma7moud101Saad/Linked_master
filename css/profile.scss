@@ -1,3 +1,7 @@
+body
+{
+    height: 2000px;
+}
 .profileCover
 {
     width: 100%;
@@ -139,6 +143,7 @@
     margin-bottom: 20px;
     margin-top:20px;
     height: 13px;
+    background-color: #fff;
 }
 .firstBro
 {
@@ -156,11 +161,140 @@
 {
     background-image: linear-gradient(to right, #1FA1B9 , #148886); 
 }
+.gray{
+    background-color: #E1E9EE;
+}
 .iconStar
 {
-    position: relative; 
+    position: absolute;
+    top:62px; 
+    left: 55%;
+}
+.popUpIcon
+{
+    position: absolute;
+    z-index: 10;
+    top:105px; 
+    left: 275px;
+    display: none;
+    width: 263px;
+    height: 430px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
+  
+    img{
+        margin-top: 20px;
+    }
+}
+.popUpIcon2
+{
+    position: absolute;
+    z-index: 5;
+    top:105px; 
+    left: 326px;
+    display: none;
+    width: 150px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
+    padding-top: 10px;
+    
+    span{
+        color: #666666;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    ul 
+    {
+        li{
+            list-style-type: none;
+            font-size: 14px;
+         } 
+         .act{
+             li{
+                list-style-image: url("../images/right.png");
+             }
+         }
+    }
+}
+.topPop
+{
+    text-align: center;
+}
+.middle
+{
+    padding-left: 10px;
 }
 
+.circleStar
+{
+    position: absolute;
+    top:62px; 
+    left: 93%;
+}
+.popUpIcon3
+{
+    position: absolute;
+    z-index: 10;
+    top:105px; 
+    left: 440px;
+    display: none;
+    width: 263px;
+    height: 380px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
+    p{
+        font-size: 14px;
+        color: #666666;
+    }
+  
+    img{
+        margin-top: 20px;
+    }
+
+}
+#hide{
+    border: none;
+    background: none;
+    height: 36px;
+width: 40px;
+
+}
+#hide:hover
+{
+    background-color: #E3EAEF;
+    border-radius: 50%;
+    height: 36px;
+width: 40px;
+
+}
+.fa-chevron-down,.fa-chevron-up
+{
+    color: #666666; 
+}
+.div2,.div3
+{display: none;
+width: 100%;
+height: 100px;
+
+}
+.div1
+{display: block;
+    width: 100%;
+    height: 100px;}
+.div1
+{
+    background-color: rebeccapurple;
+}
+.div2
+{
+    background-color: red;
+}
+.div3
+{
+    background-color: black;    
+}
 .clear
 {width: 100%;
 height: 1px;
