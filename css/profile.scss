@@ -1,0 +1,167 @@
+.profileCover
+{
+    width: 100%;
+    min-height: 455px;
+    box-shadow: 0px 0px 3px gray;
+    padding: 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.imgCover
+{
+    background:url("../images/0.jpg") no-repeat;width:100%;height:200px; background-size: cover;
+}
+.myImg
+{
+    margin-top: -75px;
+    margin-left:3%;
+}
+.MyName
+{
+    font-size: 24px;
+    color:#191919;    
+}
+#city
+{
+    color: #666666;
+}
+.buttons{
+    padding: 0;
+    
+}
+.More
+{
+  
+    border:1px solid black;
+    outline: 2px solid transparent;
+    margin-left: 5%;
+    border-radius: 1px;
+}
+
+.More:hover
+{
+   
+    outline: 2px solid black;
+    border-radius: 1px;
+    background-color: #B3B6B9;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+   line-height: 18px;
+}
+.pinTool{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.pinTool:hover
+{
+    background-color: #C3DEED;
+}
+.fa-graduation-cap
+{
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+    color: #B3B6B9;
+}
+.fa-address-book
+{
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: #B3B6B9;
+}
+.fa-user-friends
+{
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: #B3B6B9;
+}
+
+.f{
+    width:160px;
+    float: left;
+    a
+    {
+        color: #191919;
+    }
+    a:hover
+    {
+        text-decoration: none;
+    }
+}
+// profile strength
+.profStrength
+{
+    width: 100%;
+    min-height: 125px;
+    box-shadow: 0px 0px 3px gray;
+    background-color: #fff;
+    padding-top: 20px;
+    
+   
+}
+.streng
+{
+    font-size: 22px;
+    color: #666666;
+    span{
+        font-size: 22px;
+        color: black;
+    }
+
+
+}
+.streng:hover
+{
+    color: #666666;
+    text-decoration: none;
+}
+
+#hide{
+    float: right;
+}
+.progress
+{
+    margin-bottom: 20px;
+    margin-top:20px;
+    height: 13px;
+}
+.firstBro
+{
+    background-image: linear-gradient(to right, #544BC2 , #4367BF);
+}
+.secondBro
+{
+    background-image: linear-gradient(to right, #4268BF , #3184BC);
+}
+.thirdBro
+{
+    background-image: linear-gradient(to right, #3185BC , #20A0B9);
+}
+.fourthBro
+{
+    background-image: linear-gradient(to right, #1FA1B9 , #148886); 
+}
+.iconStar
+{
+    position: relative; 
+}
+
+.clear
+{width: 100%;
+height: 1px;
+clear: both;}
