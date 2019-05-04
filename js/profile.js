@@ -1,7 +1,7 @@
 $(function(){
     var flag = true;
     $("#hide").click(function () {
-     $(".asd").toggle();
+     $(".containerStrength").toggle();
      if(flag)
      {
      $(this).html("<i class='fas fa-chevron-down'></i>");
@@ -107,12 +107,19 @@ $("#next").click(function(){
     {
         $( "#previeus" ).prop( "disabled", false );
         $("#previeus").css("cursor","pointer");
+        $("#previeus").css("color","#666666");
+        $(".Add").html('Add current possition');
+        $(".does").show();
+        
     }
 
     if(flag1>=2)
     {
         $( "#previeus" ).prop( "disabled", false );
         $("#previeus").css("cursor","pointer");
+        $("#previeus").css("color","#666666");
+        $(".Add").html('Add Industry');
+        $(".does").hide();
     }
 
     if(flag1 >=3)
@@ -120,11 +127,13 @@ $("#next").click(function(){
     flag1=3;
         $( "#next" ).prop( "disabled", true );
         $("#next").css("cursor","not-allowed");
-
+        $("#next").css("color","#BFBFBF");
+        $(".Add").html('Add sumary');
+        $(".does").hide();
     }
 
 
-console.log(flag1);
+
     
 });
 
@@ -159,12 +168,18 @@ $("#previeus").click(function () {
     {
         $( "#next" ).prop( "disabled", false );
         $("#next").css("cursor","pointer");
+        $("#next").css("color","#666666");
+        $(".btn-primary").html('Add sumary');
+        $(".does").hide();
     }
 
     if(flag1<=2)
     {
         $( "#next" ).prop( "disabled", false );
         $("#next").css("cursor","pointer");
+        $("#next").css("color","#666666");
+        $(".btn-primary").html('Add Industry');
+        $(".does").hide();
     }
 
     if(flag1 <=1)
@@ -172,9 +187,25 @@ $("#previeus").click(function () {
     flag1=1;
     $( "#previeus" ).prop( "disabled", true );
     $("#previeus").css("cursor","not-allowed");
+    $("#previeus").css("color","#BFBFBF");
+    $(".add").html('Add current possition');
+    
+    $(".does").show();
     }
     
     console.log(flag1);
+});
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if(scroll>750)
+    {
+        $(".navBar2").slideDown(100);
+    }
+    if(scroll<750)
+    {
+        $(".navBar2").slideUp(100);
+    }
 });
 
 });

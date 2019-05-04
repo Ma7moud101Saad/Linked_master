@@ -211,28 +211,321 @@ body {
 .fa-chevron-down, .fa-chevron-up {
   color: #666666; }
 
-.div2, .div3 {
+.div2, .div3, .div4 {
   display: none;
   width: 100%;
-  height: 100px; }
+  height: 86px; }
 
-.div1 {
+.div1, .div4 {
   display: block;
   width: 100%;
-  height: 100px; }
+  height: 86px; }
 
-.div1 {
-  background-color: rebeccapurple; }
+.div1, .div2, .div3, .div4 {
+  border: 1px solid #D9D9D9;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  padding-top: 20px;
+  padding-left: 20px; }
+  .div1 img, .div2 img, .div3 img, .div4 img {
+    float: left;
+    margin-right: 20px; }
+  .div1 .span1, .div2 .span1, .div3 .span1, .div4 .span1 {
+    font-weight: 600;
+    color: #19191F;
+    font-size: 16px; }
+  .div1 .span2, .div2 .span2, .div3 .span2, .div4 .span2 {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 100; }
 
-.div2 {
-  background-color: red; }
-
-.div3 {
-  background-color: black; }
+.containerStrength {
+  padding-bottom: 20px; }
+  .containerStrength #previeus, .containerStrength #next {
+    background: none;
+    border: none;
+    color: #666666; }
+    .containerStrength #previeus .fa-chevron-left, .containerStrength #next .fa-chevron-left {
+      float: left;
+      margin-top: 5px;
+      margin-right: 15px; }
+    .containerStrength #previeus .fa-chevron-right, .containerStrength #next .fa-chevron-right {
+      float: right;
+      margin-top: 3px;
+      margin-left: 15px; }
+  .containerStrength .gropButtons {
+    float: right; }
+    .containerStrength .gropButtons .btn-primary {
+      background-color: #0073B1;
+      border-radius: 1px; }
 
 .clear {
   width: 100%;
   height: 1px;
   clear: both; }
+
+.rightSidBar {
+  background-color: red;
+  height: 100px; }
+
+.navBar2 {
+  position: sticky;
+  top: 50px;
+  z-index: 10;
+  background-color: #fff;
+  height: 65px;
+  box-shadow: 0px 0px 3px gray;
+  display: none; }
+
+.StrengthYour {
+  height: 250px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px gray;
+  border-top: 3px solid #0073B1;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 14px;
+  margin-bottom: 20px; }
+
+.gropButtons2 {
+  float: right; }
+
+.dashboard {
+  height: 315px;
+  width: 100%;
+  background-color: #F3F6F8;
+  box-shadow: 0px 0px 3px gray;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 14px;
+  margin-bottom: 20px; }
+  .dashboard h6 {
+    color: #61627E; }
+
+.myDiv {
+  width: 100%;
+  height: 85px;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px gray;
+  float: left;
+  margin-bottom: 20px; }
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 300px) {
+  .content {
+    margin-top: 40px; }
+
+  .btn-group {
+    margin-left: -10px;
+    width: 100%; }
+
+  .profileCover {
+    height: 700px; }
+
+  .More {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: -20px;
+    margin-bottom: 20px; }
+
+  .containerProgress {
+    display: none; }
+
+  .rightSidBar {
+    display: none; }
+
+  .profStrength {
+    padding-bottom: 170px;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+
+  .div1, .div2, .div3, .div4 {
+    min-height: 200px;
+    margin-top: 30px; }
+
+  .gropButtons .btn-light, .gropButtons .btn-primary {
+    margin-top: 20px;
+    width: 100%; }
+
+  #next {
+    float: right;
+    width: 50%; }
+
+  #previeus {
+    float: left;
+    width: 50%; }
+
+  .StrengthYour {
+    height: 400px; }
+
+  .dashboard {
+    height: 550px; }
+    .dashboard a {
+      text-decoration: none; }
+      .dashboard a span {
+        color: #19191F; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .content {
+    margin-top: 40px; }
+
+  .btn-group {
+    margin-left: 0px;
+    width: 100%; }
+
+  .More {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px; }
+
+  .containerProgress {
+    display: block; }
+
+  .rightSidBar {
+    display: none; }
+
+  .circleStar {
+    left: 88%; }
+
+  .popUpIcon {
+    left: 0; }
+
+  .popUpIcon2 {
+    left: 0; }
+
+  .popUpIcon3 {
+    left: 150px; }
+
+  .gropButtons {
+    float: none; }
+
+  .containerStrength .gropButtons {
+    float: none; }
+
+  .profStrength {
+    padding-bottom: 70px;
+    margin-top: 20px; }
+
+  .dashboard {
+    height: 530px; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .btn-group {
+    margin-left: 0px;
+    width: 100%; }
+
+  .More {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px; }
+
+  .containerProgress {
+    display: block; }
+
+  .rightSidBar {
+    display: none; }
+
+  .containerStrength .gropButtons {
+    float: none; }
+
+  .circleStar {
+    left: 95%; }
+
+  .popUpIcon {
+    left: 50%; }
+
+  .popUpIcon2 {
+    left: 50%; }
+
+  .popUpIcon3 {
+    left: 70%; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .btn-group {
+    margin-left: 0px;
+    width: 40%; }
+
+  .More {
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 80px;
+    margin-bottom: 20px; }
+
+  .profileCover {
+    height: 550px; }
+
+  .containerProgress {
+    display: block; }
+
+  .rightSidBar {
+    display: block; }
+
+  .containerStrength .gropButtons {
+    float: none; }
+
+  .circleStar {
+    left: 93%; }
+
+  .popUpIcon {
+    left: 40%; }
+
+  .popUpIcon2 {
+    left: 47%; }
+
+  .popUpIcon3 {
+    left: 78%; }
+
+  .dashboard {
+    height: 300px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .More {
+    margin-left: 60px; }
+
+  .containerProgress {
+    display: block; }
+
+  .containerStrength .gropButtons {
+    float: right; }
+
+  .gropButtons .btn-light {
+    margin-top: 0px;
+    width: 140px; }
+
+  .gropButtons .btn-primary {
+    margin-top: 0px;
+    width: 183px; }
+
+  #next {
+    float: none;
+    width: 16%; }
+
+  #previeus {
+    float: none;
+    width: 16%; }
+
+  .containerStrength .gropButtons {
+    float: right; }
+
+  .div1, .div2, .div3, .div4 {
+    min-height: 100px;
+    margin-top: 30px; }
+
+  .profStrength {
+    padding-bottom: 40px;
+    margin-top: 20px; }
+
+  .containerStrength #previeus, .containerStrength #next {
+    width: 110px; }
+
+  .profileCover {
+    height: 500px; }
+
+  .StrengthYour {
+    height: 250px; } }
+/*==========  Non-Mobile First Method  ==========*/
 
 /*# sourceMappingURL=profile.css.map */
