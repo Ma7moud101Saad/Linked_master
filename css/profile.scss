@@ -1,6 +1,6 @@
 body
 {
-    height: 2000px;
+    min-height: 4000px;
 }
 .profileCover
 {
@@ -61,7 +61,7 @@ body
 .pinTool{
     float: right;
     position: relative;
-    top: 30px;
+    top: 0px;
     right: 20px;
     width: 40px;
     height: 40px;
@@ -341,13 +341,14 @@ height: 86px;
 height: 1px;
 clear: both;}
 .rightSidBar{
-    background-color: red;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
     height: 100px;
 }
 .navBar2{
     position: sticky;
     top: 50px;
-    z-index: 10;
+    z-index: 8;
     background-color: #fff;
     height: 65px;
     box-shadow: 0px 0px 3px gray;
@@ -393,7 +394,197 @@ clear: both;}
     box-shadow: 0px 0px 3px gray;
     float: left;
     margin-bottom: 20px;
+    padding-top: 10px;
+    .divPragraph{
+        float: left;
+        .headP{
+            font-size: 16px;
+        }
+        #ON{
+            background-color: #2F7B15;
+            color: #fff;
+        }
+        .pragraph2{
+            color: #666666;
+        }
+        
+    }
 }
+.fa-briefcase{
+    color: #61627E;
+    float: left;
+    margin-right: 10px;
+}
+.skils{
+    p{
+        text-align: center;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
+    min-height: 400px;
+    width: 100%;
+    margin-top: 20px;
+.skillTop
+{
+    padding-top: 20px;
+    padding-left: 16px;
+    
+}
+    h5{
+        float: left;
+    }
+    .groupOfButton
+{
+    float: right;
+    margin-right: 14px;
+}
+.p1{
+    margin-top: 20px;
+    line-height: 10px;
+    h6{
+        color: black;
+    }
+    p{
+        font-size: 13px;
+        color: #666666;
+        span{
+            color: black;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+}
+.clear{
+    width: 100%;
+    clear: both;
+}
+.btn-outline-primary
+{
+    outline:2px solid transparent;
+   
+}
+.btn-outline-primary:hover {
+    color: #007bff;
+    background-color: #B8D5DF;
+    border-color: #007bff;
+    outline:2px solid #007bff;
+    border-radius: 2px;
+    
+}
+
+.speBtn{
+    background: none;
+    border: none;
+    color: #2F73B4;
+    .fa-chevron-down{color:#2F73B4; }
+
+}
+.moreDiv{
+    .industry{
+        color: black;
+    }
+    h6{
+        color: #616263;
+    }
+    .fa-chevron-up{
+        color:#2F73B4;
+    }
+    .menuLeft{
+        float: left;
+        width: 40%;
+    }
+    .menuRight{
+        float: left;
+        width: 40%;
+    }
+    ul{
+        padding-left: 0;
+        li{
+            list-style-type: none;
+            color: black;
+            font-weight: 600;
+            line-height: 30px;
+        }
+    }
+    .topMoreDiv{
+        min-height: 600px;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    margin-top: -26px;
+    display: none;
+    p{
+        text-align: center;
+        background-color: #fff;
+        border-top: 1px solid #CFD1D3;
+        height: 40px;
+        padding-top: 10px;
+    }
+    width: 100%;
+    
+    background-color: #F3F6F8;
+   
+}
+.accomplishmen{
+    h5{margin-left: 15px;}
+    padding-top: 20px;
+    width: 100%;
+    min-height: 220px;
+    box-shadow: 0px 0px 3px gray;
+    margin-top: 20px;
+    background-color: #fff;
+    h5{float: left;}
+    .divVisable,.divNonVisable,.divVisable2,.divNonVisable2{
+        h2{
+            float: left;
+            color: #0073B1;
+            margin-right: 20px;
+        }
+        p{
+            float: right;
+        }
+    }
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #666666;
+    text-decoration: none;
+    background-color: #CDCFD2;
+}
+.divVisable{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.divNonVisable{
+    width: 100%;
+    height: 160px;
+    background-color: #F3F6F8;
+    display: none;
+    border-top:1px solid #CFD1D3;
+    padding-left: 30px;
+}
+.divVisable2{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.divNonVisable2{
+    width: 100%;
+    height: 160px;
+    background-color: #F3F6F8;
+    display: none;
+    border-top:1px solid #CFD1D3;
+    padding-left: 30px;
+}
+
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 300px) {
 .content{
@@ -447,8 +638,8 @@ width: 100%;
     height: 400px;
 }
 .dashboard
-{
-    height: 550px;
+{height: 620px;
+    h6{font-style: italic;}
     a{
       text-decoration: none;
       span{
@@ -456,6 +647,55 @@ width: 100%;
       }  
     }
 }
+.sepMyDiv
+{
+    height: 200px;
+}
+
+.education
+{
+    min-height: 420px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
+    padding-top: 30px;
+    padding-left: 15px;
+    h5{
+        color: #191943;
+        margin-bottom: 20px;
+    }
+
+        .fa-university{
+            float: left;
+            font-size: 1rem !important;
+            background-color: #B3B6B9;
+            color: #DDDEDF;
+            padding: 1rem;
+            margin-right: 30px;
+    }
+.span1{
+    font-size: 15px;
+    font-weight: 650;
+    color: #191919;
+}
+.span2{
+    font-size: 15px;
+}
+.span3{
+    color: #666666;
+}
+}
+.pragraphEdu{
+    width: 80%;
+    float: left;
+    .skilspragraph
+    {
+        color:#666666;
+    }
+}
+
+
+
 }
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
@@ -507,6 +747,14 @@ width: 100%;
 {
     height: 530px;
 }
+.sepMyDiv
+{
+    height: 200px;
+}
+.dashboard {
+    height: 615px;
+}
+
 }
 
 /* Small Devices, Tablets */
@@ -544,7 +792,14 @@ width: 100%;
         .popUpIcon3 {
             left: 70%;
         }
-        
+        .sepMyDiv
+{
+    height: 200px;
+}
+.dashboard {
+    height: 615px;
+}
+
 }
 
 /* Medium Devices, Desktops */
@@ -589,6 +844,18 @@ width: 100%;
     {
     height: 300px;
     }
+    .sepMyDiv
+{
+    height: 200px;
+}
+.dashboard {
+    height: 370px;
+}
+.myDiv
+{
+    height: 125px;
+}
+
 }
 
 /* Large Devices, Wide Screens */
@@ -648,6 +915,15 @@ width: 100%;
 {
     height: 250px;
 }
+.myDiv
+{
+    height: 85px;
+}
+.dashboard
+{
+    height: 315px;
+}
+
 }
 
 /*==========  Non-Mobile First Method  ==========*/

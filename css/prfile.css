@@ -1,5 +1,5 @@
 body {
-  min-height: 4000px; }
+  height: 2000px; }
 
 .profileCover {
   width: 100%;
@@ -50,7 +50,7 @@ body {
 .pinTool {
   float: right;
   position: relative;
-  top: 0px;
+  top: 30px;
   right: 20px;
   width: 40px;
   height: 40px;
@@ -265,14 +265,13 @@ body {
   clear: both; }
 
 .rightSidBar {
-  background-color: #fff;
-  box-shadow: 0px 0px 3px gray;
+  background-color: red;
   height: 100px; }
 
 .navBar2 {
   position: sticky;
   top: 50px;
-  z-index: 8;
+  z-index: 10;
   background-color: #fff;
   height: 65px;
   box-shadow: 0px 0px 3px gray;
@@ -310,160 +309,7 @@ body {
   background-color: #fff;
   box-shadow: 0px 0px 3px gray;
   float: left;
-  margin-bottom: 20px;
-  padding-top: 10px; }
-  .myDiv .divPragraph {
-    float: left; }
-    .myDiv .divPragraph .headP {
-      font-size: 16px; }
-    .myDiv .divPragraph #ON {
-      background-color: #2F7B15;
-      color: #fff; }
-    .myDiv .divPragraph .pragraph2 {
-      color: #666666; }
-
-.fa-briefcase {
-  color: #61627E;
-  float: left;
-  margin-right: 10px; }
-
-.skils {
-  background-color: #fff;
-  box-shadow: 0px 0px 3px gray;
-  min-height: 400px;
-  width: 100%;
-  margin-top: 20px; }
-  .skils p {
-    text-align: center; }
-  .skils a:hover {
-    text-decoration: none; }
-  .skils .skillTop {
-    padding-top: 20px;
-    padding-left: 16px; }
-  .skils h5 {
-    float: left; }
-  .skils .groupOfButton {
-    float: right;
-    margin-right: 14px; }
-  .skils .p1 {
-    margin-top: 20px;
-    line-height: 10px; }
-    .skils .p1 h6 {
-      color: black; }
-    .skils .p1 p {
-      font-size: 13px;
-      color: #666666; }
-      .skils .p1 p span {
-        color: black;
-        font-size: 14px;
-        font-weight: 600; }
-
-.clear {
-  width: 100%;
-  clear: both; }
-
-.btn-outline-primary {
-  outline: 2px solid transparent; }
-
-.btn-outline-primary:hover {
-  color: #007bff;
-  background-color: #B8D5DF;
-  border-color: #007bff;
-  outline: 2px solid #007bff;
-  border-radius: 2px; }
-
-.speBtn {
-  background: none;
-  border: none;
-  color: #2F73B4; }
-  .speBtn .fa-chevron-down {
-    color: #2F73B4; }
-
-.moreDiv {
-  margin-top: -26px;
-  display: none;
-  width: 100%;
-  background-color: #F3F6F8; }
-  .moreDiv .industry {
-    color: black; }
-  .moreDiv h6 {
-    color: #616263; }
-  .moreDiv .fa-chevron-up {
-    color: #2F73B4; }
-  .moreDiv .menuLeft {
-    float: left;
-    width: 40%; }
-  .moreDiv .menuRight {
-    float: left;
-    width: 40%; }
-  .moreDiv ul {
-    padding-left: 0; }
-    .moreDiv ul li {
-      list-style-type: none;
-      color: black;
-      font-weight: 600;
-      line-height: 30px; }
-  .moreDiv .topMoreDiv {
-    min-height: 600px;
-    padding-top: 20px;
-    padding-left: 15px; }
-  .moreDiv p {
-    text-align: center;
-    background-color: #fff;
-    border-top: 1px solid #CFD1D3;
-    height: 40px;
-    padding-top: 10px; }
-
-.accomplishmen {
-  padding-top: 20px;
-  width: 100%;
-  min-height: 220px;
-  box-shadow: 0px 0px 3px gray;
-  margin-top: 20px;
-  background-color: #fff; }
-  .accomplishmen h5 {
-    margin-left: 15px; }
-  .accomplishmen h5 {
-    float: left; }
-  .accomplishmen .divVisable h2, .accomplishmen .divNonVisable h2, .accomplishmen .divVisable2 h2, .accomplishmen .divNonVisable2 h2 {
-    float: left;
-    color: #0073B1;
-    margin-right: 20px; }
-  .accomplishmen .divVisable p, .accomplishmen .divNonVisable p, .accomplishmen .divVisable2 p, .accomplishmen .divNonVisable2 p {
-    float: right; }
-
-.dropdown-item:focus, .dropdown-item:hover {
-  color: #666666;
-  text-decoration: none;
-  background-color: #CDCFD2; }
-
-.divVisable {
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-  padding-left: 30px; }
-
-.divNonVisable {
-  width: 100%;
-  height: 160px;
-  background-color: #F3F6F8;
-  display: none;
-  border-top: 1px solid #CFD1D3;
-  padding-left: 30px; }
-
-.divVisable2 {
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-  padding-left: 30px; }
-
-.divNonVisable2 {
-  width: 100%;
-  height: 160px;
-  background-color: #F3F6F8;
-  display: none;
-  border-top: 1px solid #CFD1D3;
-  padding-left: 30px; }
+  margin-bottom: 20px; }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 300px) {
@@ -514,48 +360,13 @@ body {
     height: 400px; }
 
   .dashboard {
-    height: 620px; }
-    .dashboard h6 {
-      font-style: italic; }
+    height: 550px; }
     .dashboard a {
       text-decoration: none; }
       .dashboard a span {
-        color: #19191F; }
-
-  .sepMyDiv {
-    height: 200px; }
-
-  .education {
-    min-height: 420px;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0px 0px 3px gray;
-    padding-top: 30px;
-    padding-left: 15px; }
-    .education h5 {
-      color: #191943;
-      margin-bottom: 20px; }
-    .education .fa-university {
-      float: left;
-      font-size: 1rem !important;
-      background-color: #B3B6B9;
-      color: #DDDEDF;
-      padding: 1rem;
-      margin-right: 30px; }
-    .education .span1 {
-      font-size: 15px;
-      font-weight: 650;
-      color: #191919; }
-    .education .span2 {
-      font-size: 15px; }
-    .education .span3 {
-      color: #666666; }
-
-  .pragraphEdu {
-    width: 80%;
-    float: left; }
-    .pragraphEdu .skilspragraph {
-      color: #666666; } }
+        color: #19191F;
+        font-style: italic;
+        font-size: 19px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .content {
@@ -600,13 +411,7 @@ body {
     margin-top: 20px; }
 
   .dashboard {
-    height: 530px; }
-
-  .sepMyDiv {
-    height: 200px; }
-
-  .dashboard {
-    height: 615px; } }
+    height: 530px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .btn-group {
@@ -638,13 +443,7 @@ body {
     left: 50%; }
 
   .popUpIcon3 {
-    left: 70%; }
-
-  .sepMyDiv {
-    height: 200px; }
-
-  .dashboard {
-    height: 615px; } }
+    left: 70%; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .btn-group {
@@ -682,16 +481,7 @@ body {
     left: 78%; }
 
   .dashboard {
-    height: 300px; }
-
-  .sepMyDiv {
-    height: 200px; }
-
-  .dashboard {
-    height: 370px; }
-
-  .myDiv {
-    height: 125px; } }
+    height: 300px; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .More {
@@ -737,13 +527,7 @@ body {
     height: 500px; }
 
   .StrengthYour {
-    height: 250px; }
-
-  .myDiv {
-    height: 85px; }
-
-  .dashboard {
-    height: 315px; } }
+    height: 250px; } }
 /*==========  Non-Mobile First Method  ==========*/
 
-/*# sourceMappingURL=profile.css.map */
+/*# sourceMappingURL=prfile.css.map */

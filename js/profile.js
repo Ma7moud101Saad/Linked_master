@@ -208,4 +208,45 @@ $(window).scroll(function (event) {
     }
 });
 
+    $(".speBtn").click(function (e) { 
+        e.preventDefault();
+       $(".speBtn").hide();
+       $(".moreDiv").show();
+        
+    });
+$(".lessButton").click(function (e) { 
+    e.preventDefault();
+    $(".speBtn").show();
+    $(".moreDiv").hide();
+    
+});
+$(".Plush").click(function (e) { 
+    e.preventDefault();
+    $(".menusD").toggle();
+    
+});
+$("#down").click(function (e) { 
+    e.preventDefault();
+    $(".divVisable").hide();
+    $(".divNonVisable").show();
+    
+});
+$("#up").click(function (e) { 
+    e.preventDefault();
+    $(".divVisable").show();
+    $(".divNonVisable").hide();
+    
+});
+$("#down2").click(function (e) { 
+    e.preventDefault();
+    $(".divVisable2").hide();
+    $(".divNonVisable2").show();
+    
+});
+$("#up2").click(function (e) { 
+    e.preventDefault();
+    $(".divVisable2").show();
+    $(".divNonVisable2").hide();
+    
+});
 });
